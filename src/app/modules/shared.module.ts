@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatFormFieldModule, MatIconModule, MatInputModule } from '@angular/material';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -8,13 +8,15 @@ import { CommonModule } from '@angular/common';
     MatButtonModule,
     MatFormFieldModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule
   ],
   exports: [
     MatButtonModule,
     MatFormFieldModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule
   ]
 })
 export class SharedModule {
