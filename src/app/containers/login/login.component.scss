@@ -1,0 +1,12 @@
+.login-form {
+  max-width: 20em;
+  margin-bottom: 4em;
+  mat-form-field {
+    width: 100%;
+  }
+
+  mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
